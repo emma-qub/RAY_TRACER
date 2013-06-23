@@ -1,0 +1,44 @@
+<!DOCTYPE RayTracerML>
+<scene>
+ <shapes>
+  <shape type="surface" id="0">
+   <color g="0,333333" r="1" b="0"/>
+   <material kreflex="0,3" ns="80" ka="0,7" ks="0,3" kd="0,7"/>
+   <equation1 value="z^2-y^2"/>
+   <equation2 value="yz"/>
+   <equation3 value="xy"/>
+   <equation4 value="x^2-y^2+z^2"/>
+  </shape>
+  <shape type="rectangle" id="1">
+   <color g="1" r="1" b="1"/>
+   <material kreflex="0,5" ns="80" ka="0,5" ks="0,3" kd="0,5"/>
+   <center x="0" y="0" z="-1,5"/>
+   <normal x="0" y="0" z="1"/>
+   <height value="30"/>
+   <width value="20"/>
+  </shape>
+ </shapes>
+ <lights>
+  <light id="0">
+   <intensity value="3"/>
+   <position x="0" y="-10" z="0"/>
+   <color g="1" r="1" b="1"/>
+  </light>
+  <light id="1">
+   <intensity value="3"/>
+   <position x="2" y="2" z="-2"/>
+   <color g="1" r="1" b="1"/>
+  </light>
+ </lights>
+ <screensetup>
+  <width value="800"/>
+  <height value="600"/>
+  <oversampling value="2"/>
+ </screensetup>
+ <camera>
+  <observer x="2" y="-8" z="4"/>
+  <aimedpoint x="0" y="-1" z="0"/>
+  <viewangle value="0,1273239544735163"/>
+  <distscreen value="0,5"/>
+ </camera>
+</scene>

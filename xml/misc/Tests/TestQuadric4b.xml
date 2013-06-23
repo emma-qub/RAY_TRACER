@@ -1,0 +1,55 @@
+<!DOCTYPE RayTracerML>
+<scene>
+ <shapes>
+  <shape type="draughtboard" id="0">
+   <color g="0" r="0" b="0"/>
+   <material kreflex="0,3" ns="80" ka="0,3" ks="0,3" kd="0,7"/>
+   <center x="0" y="-10" z="0"/>
+   <normal x="0" y="1" z="0"/>
+   <height value="80"/>
+   <width value="60"/>
+   <colord g="1" r="1" b="1"/>
+   <casesize value="4"/>
+  </shape>
+  <shape type="quadric" id="1">
+   <color g="0,333333" r="1" b="0"/>
+   <material kreflex="0,3" ns="80" ka="0,3" ks="0,3" kd="0,7"/>
+   <a value="1"/>
+   <b value="0"/>
+   <c value="1"/>
+   <d value="0"/>
+   <e value="0"/>
+   <f value="0"/>
+   <g value="0"/>
+   <h value="-9"/>
+   <i value="0"/>
+   <j value="0"/>
+  </shape>
+  <shape type="rectangle" id="2">
+   <color g="1" r="1" b="1"/>
+   <material kreflex="0,3" ns="80" ka="0,3" ks="0,3" kd="0,7"/>
+   <center x="0" y="10" z="0"/>
+   <normal x="0" y="1" z="0"/>
+   <height value="80"/>
+   <width value="60"/>
+  </shape>
+ </shapes>
+ <lights>
+  <light id="0">
+   <intensity value="3"/>
+   <position x="20" y="2" z="-20"/>
+   <color g="1" r="1" b="1"/>
+  </light>
+ </lights>
+ <screensetup>
+  <width value="800"/>
+  <height value="600"/>
+  <oversampling value="2"/>
+ </screensetup>
+ <camera>
+  <observer x="-40" y="0" z="-40"/>
+  <aimedpoint x="0" y="0" z="0"/>
+  <viewangle value="0,1273239544735163"/>
+  <distscreen value="0,5"/>
+ </camera>
+</scene>

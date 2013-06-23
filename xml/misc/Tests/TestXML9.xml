@@ -1,0 +1,87 @@
+<!DOCTYPE RayTracerML>
+<scene>
+ <screensetup>
+  <width value="800"/>
+  <height value="600"/>
+  <oversampling value="2"/>
+ </screensetup>
+ <shapes>
+  <shape type="draughtboard" id="0">
+   <color g="0.01" r="0.01" b="0.01"/>
+   <material kreflex="0.5" ns="40" ka="0.4" ks="0.4" kd="0.5"/>
+   <center x="0.0" y="-4.0" z="0.0"/>
+   <normal x="0.0" y="1.0" z="0.0"/>
+   <height value="60.0"/>
+   <width value="40.0"/>
+   <colord g="0.9" r="0.9" b="0.9"/>
+   <casesize value="5"/>
+  </shape>
+  <shape type="sphere" id="1">
+   <color g="0,686275" r="0,117647" b="0,0392157"/>
+   <material kreflex="0,2" ns="80" ka="0,4" ks="0,9" kd="0,8"/>
+   <center x="0" y="0" z="0"/>
+   <radius value="4"/>
+  </shape>
+  <shape type="sphere" id="2">
+   <color g="0,321569" r="0,0313725" b="1"/>
+   <material kreflex="0,4" ns="80" ka="0,4" ks="0,9" kd="0,8"/>
+   <center x="0" y="0" z="10"/>
+   <radius value="4"/>
+  </shape>
+  <shape type="sphere" id="3">
+   <color g="0" r="0,333333" b="0"/>
+   <material kreflex="0,2" ns="80" ka="0,4" ks="0,9" kd="0,8"/>
+   <center x="0" y="0" z="-10"/>
+   <radius value="4"/>
+  </shape>
+  <shape type="sphere" id="4">
+   <color g="0" r="0,666667" b="0,498039"/>
+   <material kreflex="0,2" ns="80" ka="0,4" ks="0,9" kd="0,8"/>
+   <center x="10" y="0" z="0"/>
+   <radius value="4"/>
+  </shape>
+  <shape type="sphere" id="5">
+   <color g="1" r="1" b="0"/>
+   <material kreflex="0,2" ns="80" ka="0,4" ks="0,9" kd="0,8"/>
+   <center x="-10" y="0" z="0"/>
+   <radius value="4"/>
+  </shape>
+  <shape type="sphere" id="6">
+   <color g="0" r="0,333333" b="0,498039"/>
+   <material kreflex="0,2" ns="80" ka="0,4" ks="0,9" kd="0,8"/>
+   <center x="-10" y="0" z="-10"/>
+   <radius value="4"/>
+  </shape>
+  <shape type="sphere" id="7">
+   <color g="0,333333" r="1" b="0"/>
+   <material kreflex="0,2" ns="80" ka="0,4" ks="0,9" kd="0,8"/>
+   <center x="10" y="0" z="-10"/>
+   <radius value="4"/>
+  </shape>
+  <shape type="sphere" id="8">
+   <color g="0" r="0" b="0"/>
+   <material kreflex="0,2" ns="80" ka="0,4" ks="0,9" kd="0,8"/>
+   <center x="-10" y="0" z="10"/>
+   <radius value="4"/>
+  </shape>
+  <shape type="sphere" id="9">
+   <color g="1" r="1" b="1"/>
+   <material kreflex="0,2" ns="80" ka="0,4" ks="0,9" kd="0,8"/>
+   <center x="10" y="0" z="10"/>
+   <radius value="4"/>
+  </shape>
+ </shapes>
+ <lights>
+  <light id="0">
+   <intensity value="3.0"/>
+   <position x="20.0" y="20.0" z="-20.0"/>
+   <color g="1.0" r="1.0" b="1.0"/>
+  </light>
+ </lights>
+ <camera>
+  <observer x="-40.0" y="40.0" z="-40.0"/>
+  <aimedpoint x="0.0" y="0.0" z="0.0"/>
+  <viewangle value="0.125"/>
+  <distscreen value="0.50"/>
+ </camera>
+</scene>

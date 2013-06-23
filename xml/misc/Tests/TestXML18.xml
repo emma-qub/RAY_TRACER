@@ -1,0 +1,239 @@
+<!DOCTYPE RayTracerML>
+<scene>
+ <shapes>
+  <shape type="rectangle" id="0">
+   <color g="0,686275" r="0,117647" b="0,0392157"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="5" y="-5" z="-8"/>
+   <normal x="0" y="0" z="1"/>
+   <height value="4"/>
+   <width value="4"/>
+  </shape>
+  <shape type="rectangle" id="1">
+   <color g="1" r="1" b="0"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="0" y="-5" z="-8"/>
+   <normal x="0" y="0" z="1"/>
+   <height value="4"/>
+   <width value="4"/>
+  </shape>
+  <shape type="rectangle" id="2">
+   <color g="0,333333" r="1" b="0"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="-5" y="-5" z="-8"/>
+   <normal x="0" y="0" z="1"/>
+   <height value="4"/>
+   <width value="4"/>
+  </shape>
+  <shape type="rectangle" id="3">
+   <color g="0,333333" r="1" b="0"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="5" y="0" z="-8"/>
+   <normal x="0" y="0" z="1"/>
+   <height value="4"/>
+   <width value="4"/>
+  </shape>
+  <shape type="rectangle" id="4">
+   <color g="0" r="1" b="0"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="0" y="0" z="-8"/>
+   <normal x="0" y="0" z="1"/>
+   <height value="4"/>
+   <width value="4"/>
+  </shape>
+  <shape type="rectangle" id="5">
+   <color g="0,686275" r="0,117647" b="0,0392157"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="-5" y="0" z="-8"/>
+   <normal x="0" y="0" z="1"/>
+   <height value="4"/>
+   <width value="4"/>
+  </shape>
+  <shape type="rectangle" id="6">
+   <color g="1" r="1" b="0"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="5" y="5" z="-8"/>
+   <normal x="0" y="0" z="1"/>
+   <height value="4"/>
+   <width value="4"/>
+  </shape>
+  <shape type="rectangle" id="7">
+   <color g="0,686275" r="0,117647" b="0,0392157"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="0" y="5" z="-8"/>
+   <normal x="0" y="0" z="1"/>
+   <height value="4"/>
+   <width value="4"/>
+  </shape>
+  <shape type="rectangle" id="8">
+   <color g="0,321569" r="0,0313725" b="1"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="-5" y="5" z="-8"/>
+   <normal x="0" y="0" z="1"/>
+   <height value="4"/>
+   <width value="4"/>
+  </shape>
+  <shape type="rectangle" id="9">
+   <color g="1" r="1" b="1"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="-8" y="-5" z="-5"/>
+   <normal x="1" y="0" z="0"/>
+   <height value="4"/>
+   <width value="4"/>
+  </shape>
+  <shape type="rectangle" id="10">
+   <color g="0" r="1" b="0"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="-8" y="-5" z="0"/>
+   <normal x="1" y="0" z="0"/>
+   <height value="4"/>
+   <width value="4"/>
+  </shape>
+  <shape type="rectangle" id="11">
+   <color g="0,321569" r="0,0313725" b="1"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="-8" y="-5" z="5"/>
+   <normal x="1" y="0" z="0"/>
+   <height value="4"/>
+   <width value="4"/>
+  </shape>
+  <shape type="rectangle" id="12">
+   <color g="0" r="1" b="0"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="-8" y="0" z="-5"/>
+   <normal x="1" y="0" z="0"/>
+   <height value="4"/>
+   <width value="4"/>
+  </shape>
+  <shape type="rectangle" id="13">
+   <color g="0,686275" r="0,117647" b="0,0392157"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="-8" y="0" z="0"/>
+   <normal x="1" y="0" z="0"/>
+   <height value="4"/>
+   <width value="4"/>
+  </shape>
+  <shape type="rectangle" id="14">
+   <color g="1" r="1" b="1"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="-8" y="0" z="5"/>
+   <normal x="1" y="0" z="0"/>
+   <height value="4"/>
+   <width value="4"/>
+  </shape>
+  <shape type="rectangle" id="15">
+   <color g="1" r="1" b="1"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="-8" y="5" z="-5"/>
+   <normal x="1" y="0" z="0"/>
+   <height value="4"/>
+   <width value="4"/>
+  </shape>
+  <shape type="rectangle" id="16">
+   <color g="0,333333" r="1" b="0"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="-8" y="5" z="0"/>
+   <normal x="1" y="0" z="0"/>
+   <height value="4"/>
+   <width value="4"/>
+  </shape>
+  <shape type="rectangle" id="17">
+   <color g="1" r="1" b="0"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="-8" y="5" z="5"/>
+   <normal x="1" y="0" z="0"/>
+   <height value="4"/>
+   <width value="4"/>
+  </shape>
+  <shape type="rectangle" id="18">
+   <color g="0,321569" r="0,0313725" b="1"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="5" y="8" z="-5"/>
+   <normal x="0" y="1" z="0"/>
+   <height value="4"/>
+   <width value="4"/>
+  </shape>
+  <shape type="rectangle" id="19">
+   <color g="1" r="1" b="1"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="0" y="8" z="-5"/>
+   <normal x="0" y="1" z="0"/>
+   <height value="4"/>
+   <width value="4"/>
+  </shape>
+  <shape type="rectangle" id="20">
+   <color g="0" r="1" b="0"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="-5" y="8" z="-5"/>
+   <normal x="0" y="1" z="0"/>
+   <height value="4"/>
+   <width value="4"/>
+  </shape>
+  <shape type="rectangle" id="21">
+   <color g="1" r="1" b="1"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="5" y="8" z="0"/>
+   <normal x="0" y="1" z="0"/>
+   <height value="4"/>
+   <width value="4"/>
+  </shape>
+  <shape type="rectangle" id="22">
+   <color g="1" r="1" b="0"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="0" y="8" z="0"/>
+   <normal x="0" y="1" z="0"/>
+   <height value="4"/>
+   <width value="4"/>
+  </shape>
+  <shape type="rectangle" id="23">
+   <color g="0,321569" r="0,0313725" b="1"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="-5" y="8" z="0"/>
+   <normal x="0" y="1" z="0"/>
+   <height value="4"/>
+   <width value="4"/>
+  </shape>
+  <shape type="rectangle" id="24">
+   <color g="0,686275" r="0,117647" b="0,0392157"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="5" y="8" z="5"/>
+   <normal x="0" y="1" z="0"/>
+   <height value="4"/>
+   <width value="4"/>
+  </shape>
+  <shape type="rectangle" id="25">
+   <color g="0" r="1" b="0"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="0" y="8" z="5"/>
+   <normal x="0" y="1" z="0"/>
+   <height value="4"/>
+   <width value="4"/>
+  </shape>
+  <shape type="rectangle" id="26">
+   <color g="0,333333" r="1" b="0"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="-5" y="8" z="5"/>
+   <normal x="0" y="1" z="0"/>
+   <height value="4"/>
+   <width value="4"/>
+  </shape>
+ </shapes>
+ <lights>
+  <light id="0">
+   <intensity value="1"/>
+   <position x="0" y="50" z="-40"/>
+   <color g="1" r="1" b="1"/>
+  </light>
+ </lights>
+ <screensetup>
+  <width value="800"/>
+  <height value="600"/>
+  <oversampling value="2"/>
+ </screensetup>
+ <camera>
+  <observer x="-80" y="80" z="-80"/>
+  <aimedpoint x="0" y="0" z="0"/>
+  <viewangle value="0,1273239544735163"/>
+  <distscreen value="0,5"/>
+ </camera>
+</scene>

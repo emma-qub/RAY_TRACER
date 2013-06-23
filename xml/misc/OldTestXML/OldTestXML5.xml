@@ -1,0 +1,35 @@
+<!DOCTYPE RayTracerML>
+<scene>
+ <shapes>
+  <shape type="sphere" id="0">
+   <color g="0,321569" r="0,0313725" b="1"/>
+   <material kreflex="0,1" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="0" y="0" z="0"/>
+   <radius value="6"/>
+  </shape>
+  <shape type="sphere" id="1">
+   <color g="0,666667" r="0,666667" b="0,498039"/>
+   <material kreflex="0,1" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="10" y="10" z="-10"/>
+   <radius value="1"/>
+  </shape>
+ </shapes>
+ <lights>
+  <light id="0">
+   <intensity value="3"/>
+   <position x="20" y="20" z="-20"/>
+   <color g="1" r="1" b="1"/>
+  </light>
+ </lights>
+ <screensetup>
+  <width value="800"/>
+  <height value="600"/>
+  <oversampling value="2"/>
+ </screensetup>
+ <camera>
+  <observer x="-40" y="40" z="-40"/>
+  <aimedpoint x="0" y="0" z="0"/>
+  <viewangle value="0,1273239544735163"/>
+  <distscreen value="0,5"/>
+ </camera>
+</scene>

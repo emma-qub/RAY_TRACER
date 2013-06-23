@@ -1,0 +1,39 @@
+<!DOCTYPE RayTracerML>
+<scene>
+ <shapes>
+  <shape type="rectangle" id="0">
+   <color g="0,780392" r="0,258824" b="0,780392"/>
+   <material kreflex="0,5" ns="80" ka="0,3" ks="0,9" kd="0,8"/>
+   <center x="0" y="-4" z="0"/>
+   <normal x="3" y="7" z="5"/>
+   <height value="60"/>
+   <width value="40"/>
+  </shape>
+  <shape type="rectangle" id="1">
+   <color g="0,333333" r="1" b="0"/>
+   <material kreflex="0,1" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <center x="0" y="-4" z="0"/>
+   <normal x="0" y="1" z="0"/>
+   <height value="60"/>
+   <width value="40"/>
+  </shape>
+ </shapes>
+ <lights>
+  <light id="0">
+   <intensity value="3"/>
+   <position x="20" y="0" z="-20"/>
+   <color g="1" r="1" b="1"/>
+  </light>
+ </lights>
+ <screensetup>
+  <width value="800"/>
+  <height value="600"/>
+  <oversampling value="2"/>
+ </screensetup>
+ <camera>
+  <observer x="-100" y="30" z="-100"/>
+  <aimedpoint x="0" y="0" z="0"/>
+  <viewangle value="0,1273239544735163"/>
+  <distscreen value="0,5"/>
+ </camera>
+</scene>

@@ -1,0 +1,25 @@
+<!DOCTYPE RayTracerML>
+<scene>
+ <shapes>
+  <shape type="surface" id="0">
+   <color g="0,686275" r="0,117647" b="0,0392157"/>
+   <material kreflex="0" ns="80" ka="0,7" ks="0,9" kd="0,8"/>
+   <equation1 value="x^2-y^2-z^2"/>
+   <equation2 value="2xz"/>
+   <equation3 value="2xy"/>
+   <equation4 value="x^2+y^2+z^2"/>
+  </shape>
+ </shapes>
+ <lights/>
+ <screensetup>
+  <width value="800"/>
+  <height value="600"/>
+  <oversampling value="2"/>
+ </screensetup>
+ <camera>
+  <observer x="-40" y="40" z="-40"/>
+  <aimedpoint x="0" y="0" z="0"/>
+  <viewangle value="0,1273239544735163"/>
+  <distscreen value="0,5"/>
+ </camera>
+</scene>
